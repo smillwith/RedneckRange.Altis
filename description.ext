@@ -1,0 +1,30 @@
+class Header
+{
+  gameType = COOP; // Game type - Unknown, Coop, DM, TDM, CTF, RPG, Sandbox, Seize, SC, Defend
+  minPlayers = 1; //min # of players the mission supports
+  maxPlayers = 4; //max # of players the mission supports
+};
+
+//respawn="group";
+//respawnTemplatesWest[] = {"Revive"};
+joinUnassigned = 0; //force auto-select of a team/role
+
+author = "$(dingus)";
+//overviewText = "Overview Text...";
+overviewPicture = "rangeOverviewPic098098.jpg";
+
+class Params
+{
+  #include "\a3\functions_f\Params\paramWeather.hpp"
+  #define WEATHER_DEFAULT 40
+
+  class darkness
+  {
+    title = "Time of Day: ";
+      texts[] = { "Morning (Default)", "Noon", "Evening", "Night" };
+      values[] = {0, 3, 8, 14};
+      default = 0;
+  };
+};
+
+
