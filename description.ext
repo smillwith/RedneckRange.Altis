@@ -1,0 +1,15 @@
+class Params
+{
+  #include "\a3\functions_f\Params\paramWeather.hpp"
+  #define WEATHER_DEFAULT 40
+
+  class darkness
+  {
+    title = "Darkness Level: ";
+      texts[] = { "Morning (Default)", "Evening", "Night", "Dawn" };
+      values[] = {0, 8, 12, 19};
+      default = 0;
+  };
+};
+
+

@@ -20,7 +20,7 @@ dingus_fnc_addBasicAction = {
 
   _args = [];  /*arguments*/
   _priority = 1.5; /*priority,*/
-  _showWindow = true; /* showWindow */
+  _showWindow = false; /* showWindow */
   _hideAfter = true; /* hideOnUse (true)*/
   _shortcut =""; /* shortcut ("")*/
 
