@@ -1,7 +1,7 @@
 class Params
 {
+  #define WEATHER_DEFAULT 0
   #include "\a3\functions_f\Params\paramWeather.hpp"
-  #define WEATHER_DEFAULT 40
 
   class darkness
   {
