@@ -5,13 +5,17 @@
 A custom scenario for Arma 3 featuring a large outdoor shooting range.
 
 Basics:
-* COOP 1-4 players
+* COOP 1-6 players
 * Sandbox mode
-* Eden Editor
+* Virtual Arsenal Support
+* Weapon holstering, dynamic companions (recuit and dismiss group members)
+* Eden Editor compatible
+* A few vehicles to play with
+* 1 OPFOR emplacement to train seek and destroy or assassin type missions
 
 Features:
 * 3 unique shooting positions (close range, prone mid range, elevated prone long range)
-* 5+ target areas
+* 5+ target areas (close range, mid range, long range, very long range)
 * 3 timed popup target challenges
 * Every weapon in the game
 
